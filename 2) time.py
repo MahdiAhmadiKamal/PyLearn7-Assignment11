@@ -93,3 +93,7 @@ print(t6)
 gmt = Time(22, 33, 25)
 tehran_time = gmt.gmt_to_tehran()
 tehran_time.show()
+
+gmt = Time(6, 30, 25)
+tehran_time = gmt.gmt_to_tehran()
+tehran_time.show()
