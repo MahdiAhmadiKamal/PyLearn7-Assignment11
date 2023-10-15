@@ -41,7 +41,7 @@ class Fraction:
         return decimal
     
     def simplified(self):
-        g = math.gcd(self.numerator, self.denominator)
+        g = math.gcd(self.numerator, self.denominator)      #greatest common divisor of numerator & denominator
         sim_numerator = self.numerator / g
         sim_denominator = self.denominator / g
 
